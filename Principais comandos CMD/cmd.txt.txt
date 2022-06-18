@@ -1,0 +1,23 @@
+
+PRINCIPAIS COMANDOS NO PROMPT DE COMANDO:
+
+
+cls - para limpar o terminal
+ 
+Tab - completa a frase.
+
+mkdir - Criar pasta.
+
+dir - listar no cmd.
+
+CD - abrir determinada pasta.
+
+echo - ele praticamente printa de volta no terminal uma frase // texto
+ maior que > redireciona o fluxo, vai pegar a saida da função e vai jogar em um arquivo 
+
+
+cd .. - sair 
+
+del - delete para deletar arquivo
+
+rmdir workspace /s/q - remover realmente a pasta com os arquivos. 
