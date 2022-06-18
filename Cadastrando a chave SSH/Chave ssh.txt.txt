@@ -1,0 +1,32 @@
+CHAVE SSH :
+
+ Aqui estão os comandos que eu usei e consegui cadastrar a minha chave:
+
+
+GIT BASH:
+
+
+1- Comando: ssh-keygen -t ed25519 -c  aqui vai teu email do git.
+
+2- cd /c/user/ franciele/lira/ssh.
+
+3- cat id_ed255119.pub - Vai mostrar a chave publica, aqui você copia vai no seu Github e nas configurações de chave ssh. Você copia e cola no campo maior o menor você coloca o nome da chave que desejar.
+
+4- iniciar o ssh para lidar com a chave e iniciar ela: -eval $(ssh-agent -s)
+vai mostrar - agente pid
+
+5- ssh-add id_ed25519 (Aqui você ta entregando a chave para o agent)
+
+coloca senha que você escolheu.
+
+
+
+
+
+agora mandar o codigo ou txt.- utilizar a ssh
+
+git clone  "LINK SSH"
+
+se der a msg - ele vai querer salvar assinatura - YES
+
+e ai ele já clona
